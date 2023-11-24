@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animation_Task</title>
+    <style>
+
+     
+
+    div{
+    /* background-color: rgb(42, 165, 73); */
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    
+    }
+    
+  
+  
+    div:hover{ 
+        /* background-color:red; */
+        /* transform:scale(5s); */
+         /* transform:translate(200px,200px);  */
+         /* rotate:50deg; */
+         /* transition-duration:2s;  */
+         /* transition-delay: 3s; */
+        
+         animation:helo 2s alternate 1s infinite ease-in-out ;
+         /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+         
+        }
+   
+    @keyframes helo {
+    0% {
+        transform : translateY(0px)
+        }
+    100% {
+        transform : translateY(200px)
+        }
+    }
+    </style>
+</head>
+<body> 
+      
+
+<div  > 
+    <img src="/Image/college_logo.png"> 
+</div>
+
+</body>
+</html>
